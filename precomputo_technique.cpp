@@ -10,11 +10,13 @@ int main(){
   Learn Precomputation Technique 
   mostly used for optimization 
   1.Hashing 
+  Isme kya kiya phele se he sarre store kardiya fact
+  tho loop chalane ke liye zarurat nahi hai
   */  
     fact[0]=fact[1]=1;
-    for (int i = 2; i < N; i++)
+    for (int i = 2; i < N; ++i)
     {
-        fact[i]=fact[i-1]*1;
+        fact[i]=fact[i-1]*i;
     }
     
   int t;
@@ -23,12 +25,8 @@ int main(){
   {
     int n;
     cin>>n;
-    long long fact =1;
-    for (int i = 2; i < n; i++)
-    {
-        fact=(fact*i)%M;
-    }
-    cout<<fact<<endl;
+    // long long fact =1;
+    cout<<fact[n]<<endl;
   }
   
 }
