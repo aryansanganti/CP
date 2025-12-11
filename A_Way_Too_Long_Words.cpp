@@ -2,12 +2,12 @@
 using namespace std;
 
 int main(){
-  int t;
+  int t;f
   cin>>t;
   while (t--)
   {
     string a;
-    cin>>a;
+    cin>>a;c
     int n;
     n=a.length();
     if(n>10){
