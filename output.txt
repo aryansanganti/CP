@@ -1,1 +1,5 @@
-char
+YES
+YES
+YES
+YES
+NO
