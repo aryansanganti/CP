@@ -3,6 +3,7 @@ using namespace std;
 
 int main(){
     int a[5][5];
+    // vector<vector<int>> a;
     for (int i = 0; i < 5; i++)
     {
         for (int j = 0; j < 5; j++)
@@ -11,6 +12,7 @@ int main(){
         }
         
     }
+
 
     int x,y;
     for (int i = 0; i < 5; i++)
